@@ -14,5 +14,7 @@ int main()
 }
 /*
     Key takeways:
-    + Qualify a ptr with const to make it impossible to edit when you pass it to a function. Even if the referenced value itself is not constant
+    + Constant references are really common in C++
+    + References work with both literals and variables
+    + References are more suitable to be used with objects
 */
