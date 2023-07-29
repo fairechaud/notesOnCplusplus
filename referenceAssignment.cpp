@@ -25,3 +25,9 @@ int main()
     cout << "result for swap is " << number1 << " and " << number2 << endl;
     return 0;
 }
+/*
+    Key takeways:
+    + References have clearer syntax than pointers
+    + References can never be NULL
+    + If a function uses a ptr, you first have to check for nullptr
+*/
